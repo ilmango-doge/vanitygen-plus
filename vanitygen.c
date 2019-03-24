@@ -550,6 +550,8 @@ main(int argc, char **argv)
 					"SKC : Skeincoin : S\n"
 					"SPR : Spreadcoin : S\n"
 					"START : Startcoin : s\n"
+					"SUGAR : Sugarchain : S\n"
+					"tSUGAR : Sugarchain Testnet : T\n"
 					"SXC : Sexcoin : R or S\n"
 					"TPC : Templecoin : T\n"
 					"TUX : Tuxcoin : T\n"
@@ -1572,6 +1574,22 @@ main(int argc, char **argv)
 				fprintf(stderr,
 					"Generating MNC Testnet Address\n");
 					addrtype = 111;
+					privtype = 239;
+					break;
+			}
+			else
+			if (strcmp(optarg, "SUGAR")== 0) {
+				fprintf(stderr,
+					"Generating Sugarchain Address\n");
+					addrtype = 63;
+					privtype = 128;
+					break;
+			}
+			else
+			if (strcmp(optarg, "tSUGAR")== 0) {
+				fprintf(stderr,
+					"Generating Sugarchain Testnet Address\n");
+					addrtype = 66;
 					privtype = 239;
 					break;
 			}

@@ -236,6 +236,8 @@ Current List of Available Coins for Address Generation
 |SKC | Skeincoin | S  |
 |SPR | Spreadcoin | S  |
 |START | Startcoin | s  |
+|SUGAR | Sugarchain | S  |
+|tSUGAR | Sugarchain Testnet | T  |
 |SXC | Sexcoin | R or S  |
 |TPC | Templecoin | T  |
 |TUX | Tuxcoin | T  |
